@@ -64,7 +64,6 @@ def command(fileToWatch, outputLocation):
 
 def isMD(path):
     if not os.path.isfile(path):
-        print("Not a path")
         return False
     return path[-3:] == ".md"
 
